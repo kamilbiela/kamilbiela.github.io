@@ -16,6 +16,8 @@ social:
 webmaster_verifications:
   google: "Y19mv3QIyzj30Jk-5G2Oe_T2GJ8jrb_k7UJA4BSakSM"
 
+google_analytics: "UA-160620714-1"
+
 # Build settings
 markdown: kramdown
 theme: minima
