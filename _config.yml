@@ -1,0 +1,41 @@
+title: Automation & Code
+tagline: If it's automated, it's perfect.
+email: kamil.biela@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+   Learn about AWS, CI/CD containers, automating workflows and coding.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kamilbiela.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://kamilbiela.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ~
+github_username:  kamilbiela
+social:
+  name: Kamil Biela
+  links:
+    - https://www.linkedin.com/in/KamilBiela
+
+webmaster_verifications:
+  google: "Y19mv3QIyzj30Jk-5G2Oe_T2GJ8jrb_k7UJA4BSakSM"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  # - jekyll-paginate
+  # - jekyll-relative-links
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - media/
+
+defaults:
+  - scope:
+      path: "assets/files"
+    values:
+      download: true
