@@ -6,22 +6,22 @@ date:   2020-03-13 10:00:00 +0100
 categories: jekyll docker
 ---
 
-TLDR;
------
+Jekyll as Docker Command
+------------------------
+Start working with a Jekyll the easy way with docker.
+The big advantage of that approach is that you don't have to setup ruby env and the future upgrades will be easier.
 
+TLDR;
+=====
 - Download complete [jekyll.sh script]({{ site.url }}/assets/files/jekyll.sh)  `curl {{site.url}}/assets/files/jekyll.sh --output jekyll.sh`
 - Put script inside new empty dir  
 - Check contents of file - you wouldn't trust random file from internet, right? :)
 - Init jekyll site by: `jekyll.sh new --force .`  
 - Serve site by running 'jekyll.sh serve'
 
-Jekyll as Docker Command
-=======================
-
-Start working with a Jekyll the easy way, given that you have configured docker on your machine :).
-If you don't, follow the instructions for your OS on the [docker install page][https://docs.docker.com/get-docker/]
-
-The big advantage of that approach is that you don't have to setup ruby env and the upgrade patch is easy to do.
+Let's get started
+-----------------
+If you don't have docker, follow the instructions for your OS on the [docker install page][https://docs.docker.com/get-docker/]
 
 To start, create a directory and cd into it:
 
