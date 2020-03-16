@@ -26,6 +26,9 @@ plugins:
   # - jekyll-paginate
   # - jekyll-relative-links
 
+disqus:
+  shortname: kamilbiela-github-io
+
 exclude:
   - Gemfile
   - Gemfile.lock
