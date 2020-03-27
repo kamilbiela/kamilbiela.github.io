@@ -6,8 +6,6 @@ date:   2020-03-13 10:00:00 +0100
 categories: jekyll docker
 ---
 
-Jekyll as Docker Command
-------------------------
 Start working with a Jekyll the easy way with docker.
 The big advantage of that approach is that you don't have to setup ruby env and the future upgrades will be easier.
 
